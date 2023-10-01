@@ -1,10 +1,14 @@
-# Elysia with Bun runtime
+# Auth
 
-## Getting Started
-To get started with this template, simply paste this command into your terminal:
-```bash
-bun create elysia ./elysia-example
-```
+Basic Authentication API Using `Bun` and `ElysiaJs`
+
+Created Using Bun's Default `SQLite` Database
+
+These are the following endpoints 
+- `/` => Returns all the end points on the API.
+- `/users` => Returns all the Users present in the Database.
+- `/signin` => Self explanatory end point.
+- `/signup` => Another one.
 
 ## Development
 To start the development server run:
@@ -12,4 +16,4 @@ To start the development server run:
 bun run dev
 ```
 
-Open http://localhost:3000/ with your browser to see the result.
+Open http://localhost:8080/ with your browser to see the result.
