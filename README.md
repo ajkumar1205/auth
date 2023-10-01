@@ -13,6 +13,7 @@ These are the following endpoints
 ## Development
 To start the development server run:
 ```bash
+bun install
 bun run dev
 ```
 
